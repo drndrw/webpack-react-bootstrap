@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "navigo": "^7.1.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "babel-core": "^6.26.3",
