@@ -8,12 +8,6 @@
   },
   "author": "",
   "license": "ISC",
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
   "dependencies": {
     "http-server": "^0.11.1",
     "navigo": "^7.1.2",
