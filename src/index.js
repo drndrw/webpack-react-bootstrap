@@ -10,7 +10,7 @@ const Navigation = () => {
         </ul>;
 };
 
-const App () => {
+const App = () => {
   return <div>
           <Navigation />
           <h1>Sup bois</h1>
