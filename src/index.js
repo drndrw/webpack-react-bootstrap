@@ -2,7 +2,8 @@ const anchor = document.getElementById('app');
 import React from "react";
 import ReactDOM from "react-dom";
 import {Switch, Route, BrowserRouter, browserHistory, Link} from "react-router-dom";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+import './scss/app.scss';
 
 const Navigation = () => (
   <ul>
