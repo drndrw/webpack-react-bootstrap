@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
   entry: ['./src/index.js', './src/scss/app.scss'],
@@ -30,6 +31,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.ejs'
     }),
-    new ExtractTextPlugin('style.css')
+    new ExtractTextPlugin('style.css'),
+    new OptimizeCssAssetsPlugin()
   ],
 }
